@@ -1,56 +1,14 @@
----
-name: Class-Workflow
-version: 0.01_01
-author:
-  - 'Yuval Kogman <nothingmuch@woobling.org>'
-abstract: Light weight workflow system.
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Class-Workflow
+version:      0.01_02
+version_from: lib/Class/Workflow.pm
+installdirs:  site
 requires:
-  Moose: 0.09_03
-  Set::Object: 0.15
-  Test::More: 0
-  Test::use::ok: 0
-provides:
-  Class::Workflow:
-    file: lib/Class/Workflow.pm
-    version: 0.01_01
-  Class::Workflow::Context:
-    file: lib/Class/Workflow/Context.pm
-  Class::Workflow::Environment:
-    file: lib/Class/Workflow/Environment.pm
-  Class::Workflow::Instance:
-    file: lib/Class/Workflow/Instance.pm
-  Class::Workflow::Instance::Simple:
-    file: lib/Class/Workflow/Instance/Simple.pm
-  Class::Workflow::State:
-    file: lib/Class/Workflow/State.pm
-  Class::Workflow::State::AcceptHooks:
-    file: lib/Class/Workflow/State/AcceptHooks.pm
-  Class::Workflow::State::AutoApply:
-    file: lib/Class/Workflow/State/AutoApply.pm
-  Class::Workflow::State::Simple:
-    file: lib/Class/Workflow/State/Simple.pm
-  Class::Workflow::State::TransitionHash:
-    file: lib/Class/Workflow/State/TransitionHash.pm
-  Class::Workflow::State::TransitionSet:
-    file: lib/Class/Workflow/State/TransitionSet.pm
-  Class::Workflow::Transition:
-    file: lib/Class/Workflow/Transition.pm
-  Class::Workflow::Transition::Deterministic:
-    file: lib/Class/Workflow/Transition/Deterministic.pm
-  Class::Workflow::Transition::Simple:
-    file: lib/Class/Workflow/Transition/Simple.pm
-  Class::Workflow::Transition::Strict:
-    file: lib/Class/Workflow/Transition/Strict.pm
-  Class::Workflow::Transition::Validate:
-    file: lib/Class/Workflow/Transition/Validate.pm
-  Class::Workflow::Transition::Validate::Simple:
-    file: lib/Class/Workflow/Transition/Validate/Simple.pm
-  Class::Workflow::YAML:
-    file: lib/Class/Workflow/YAML.pm
-generated_by: Module::Build version 0.2801
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    Moose:                         0.09_03
+    Set::Object:                   0.15
+    Test::More:                    0
+    Test::use::ok:                 0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30

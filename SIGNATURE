@@ -14,12 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b3c1f83920177da06f4787239187695456f69819 Build.PL
-SHA1 215b35550a84b753768811c45ec7fe546e1a1e4f MANIFEST
-SHA1 df42c869c3c1f19178cbca7fcd1d373392dfb946 META.yml
-SHA1 ca183fd7cd84258976f16626efa07d0ea8b70682 Makefile.PL
-SHA1 cfe16be1203b4ea85f0bb610bde40660f004e857 lib/Class/Workflow.pm
-SHA1 f192d321f42279778a6d406b50e83406e80dd9ff lib/Class/Workflow.pmc
+SHA1 7813ef31296feb1c53df76cf0e9b03b14ced9a97 MANIFEST
+SHA1 0a9b96bcc331ed9cd472f69844c82801c84ef577 META.yml
+SHA1 7ae6ac761875293da8aca17e2dad73291cb287ca Makefile.PL
+SHA1 7984db50b07726cb5661177dd44741a2621d6ef8 lib/Class/Workflow.pm
 SHA1 27904d4240a65b61325007be876ea576538151b7 lib/Class/Workflow/Context.pm
 SHA1 f54f14804acf944a3c81dcf0a59c6e0b9a6be42a lib/Class/Workflow/Environment.pm
 SHA1 c533e7e34fc8f975cfede60e5e2b26a6c5e38411 lib/Class/Workflow/Instance.pm
@@ -36,19 +34,18 @@ SHA1 964f9bdf0dc28f2463777d775a31e51c56b8bb6b lib/Class/Workflow/Transition/Simp
 SHA1 1cffef6d32ad72938a49090670d1971356a867db lib/Class/Workflow/Transition/Strict.pm
 SHA1 aca0b99b28ab2f6b39f89b2935a6e994535892da lib/Class/Workflow/Transition/Validate.pm
 SHA1 d5cf504aa46a35fa60ee125adca799888c600ada lib/Class/Workflow/Transition/Validate/Simple.pm
-SHA1 5fea6d58589d360c7ebbed16f5dc083be56ae197 lib/Class/Workflow/YAML.pm
-SHA1 365cfa1c9359db6dd0f6065c9c537e14d26efae3 lib/Class/Workflow/YAML.pmc
+SHA1 2c41ec6a11f5b1cade5ec895f378c2507afe1515 lib/Class/Workflow/Util/Delta.pm
+SHA1 74f81de2ec7e56ffa7a60c90a96026bf20e99438 lib/Class/Workflow/YAML.pm
 SHA1 0b42fb5c215c496b702351f923546a4e2e1f1d76 t/01_use.t
 SHA1 ed12feaeaf6c9740b16483189f9b6430722bd3f6 t/basic.t
-SHA1 24c09d17b511cad818dfa978ef2cae7764413a7f t/example.pl
-SHA1 d268ff772cf7367e41ff825c86a11c1d76698be3 t/example.yaml
+SHA1 e25e8fa3ab958978ff3f269a52035e4651bd51bd t/delta.t
+SHA1 8a802a095c0a627817659929f6a5144a1747b103 t/example.yaml
 SHA1 64fe1f48aded8384dd95e20147d3bfc02f0a4067 t/example_pop3.t
 SHA1 5fd87ce03b49376c563d7b488e114c4a886d6ce3 t/yaml.t
-SHA1 5e48aaaabfe02e1d61abdb3f853730e19f1b95ef tmon.out
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.1 (Darwin)
 
-iD8DBQFEnW6IVCwRwOvSdBgRAg+uAJ47CV+iqTx0yCU1ygZbY+wF3Cw1ZACgqfnE
-vQI2e3NcQUnRahVmlC1+V3Y=
-=I7JW
+iD8DBQFE/KclVCwRwOvSdBgRAkzPAJ9J5dnK8mWGSfnV0tDUXfJTKMoHLgCgpNqs
+EtFTnwc7VDA9BM5V4OeffwI=
+=HXxE
 -----END PGP SIGNATURE-----

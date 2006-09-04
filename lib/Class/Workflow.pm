@@ -7,7 +7,7 @@ use Class::Workflow::State::Simple;
 use Class::Workflow::Transition::Simple;
 use Class::Workflow::Instance::Simple;
 
-our $VERSION = "0.01_01";
+our $VERSION = "0.01_02";
 
 use Carp qw/croak/;
 use Scalar::Util qw/refaddr/;
@@ -784,6 +784,12 @@ L<Class::Workflow::Instance::Simple> - easy, useful classes that perform all
 the base roles.
 
 L<Moose>
+
+=head1 VERSION CONTROL
+
+This module is maintained using Darcs. You can get the latest version from
+L<http://nothingmuch.woobling.org/Class-Workflow/>, and use C<darcs send>
+to commit changes.
 
 =head1 AUTHOR
 
