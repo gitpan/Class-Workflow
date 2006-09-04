@@ -15,9 +15,9 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 7813ef31296feb1c53df76cf0e9b03b14ced9a97 MANIFEST
-SHA1 0a9b96bcc331ed9cd472f69844c82801c84ef577 META.yml
+SHA1 924f36aecdd54780b45748d811f0ab74e1cd130b META.yml
 SHA1 7ae6ac761875293da8aca17e2dad73291cb287ca Makefile.PL
-SHA1 7984db50b07726cb5661177dd44741a2621d6ef8 lib/Class/Workflow.pm
+SHA1 ff20a6459bc8ddfbf693c1e468c9ec34ec4a9266 lib/Class/Workflow.pm
 SHA1 27904d4240a65b61325007be876ea576538151b7 lib/Class/Workflow/Context.pm
 SHA1 f54f14804acf944a3c81dcf0a59c6e0b9a6be42a lib/Class/Workflow/Environment.pm
 SHA1 c533e7e34fc8f975cfede60e5e2b26a6c5e38411 lib/Class/Workflow/Instance.pm
@@ -27,7 +27,7 @@ SHA1 b0a18c195ed0d22b41f7bd72b242c1303695dc85 lib/Class/Workflow/State/AcceptHoo
 SHA1 982233439842c4c9bac2ffec619fa125677a9cd0 lib/Class/Workflow/State/AutoApply.pm
 SHA1 2ea2aa11ac1212c574f8566d77c403ef8796acb8 lib/Class/Workflow/State/Simple.pm
 SHA1 30487df33db6c10fc6b8e9c17d6731cab1a09c03 lib/Class/Workflow/State/TransitionHash.pm
-SHA1 50b566f9cd2465ac46154bf0670bdf4e6a969896 lib/Class/Workflow/State/TransitionSet.pm
+SHA1 9db58b80e7582fae0cce3ac33f7f003cc20d1c9d lib/Class/Workflow/State/TransitionSet.pm
 SHA1 c057711f4d601dc8c77c28a65d96cc7bea9a044d lib/Class/Workflow/Transition.pm
 SHA1 dff592113c196347be942a585b4b79f5c8dc2d42 lib/Class/Workflow/Transition/Deterministic.pm
 SHA1 964f9bdf0dc28f2463777d775a31e51c56b8bb6b lib/Class/Workflow/Transition/Simple.pm
@@ -45,7 +45,7 @@ SHA1 5fd87ce03b49376c563d7b488e114c4a886d6ce3 t/yaml.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.1 (Darwin)
 
-iD8DBQFE/KclVCwRwOvSdBgRAkzPAJ9J5dnK8mWGSfnV0tDUXfJTKMoHLgCgpNqs
-EtFTnwc7VDA9BM5V4OeffwI=
-=HXxE
+iD8DBQFE/KzRVCwRwOvSdBgRAnVeAJ0Z33YmmhMXGbvhRmr+pkWGu62FoACeNPyT
+WKSAc+Jr/+WbS4eGBW5uhDo=
+=6mde
 -----END PGP SIGNATURE-----
