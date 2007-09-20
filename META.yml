@@ -1,13 +1,13 @@
 --- #YAML:1.0
 name:                Class-Workflow
-version:             0.05
+version:             0.06
 abstract:            ~
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.32
 distribution_type:   module
 requires:     
     Data::Compare:                 0
-    Moose:                         0.09_03
+    Moose:                         0.17
     Set::Object:                   0.15
     Test::More:                    0
     Test::use::ok:                 0

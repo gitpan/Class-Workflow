@@ -15,9 +15,9 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 7ed33c76a9fc6adf95a6d838bd6de2b5bdabafd6 MANIFEST
-SHA1 6486eba91f031b94af6f23bba98fb81f0585e770 META.yml
-SHA1 a823dcd0043c638a9d1f9a312d70bab68a85506e Makefile.PL
-SHA1 3528fcd849c301972afbd45423631cbb6bbd566d lib/Class/Workflow.pm
+SHA1 5c3030d7bb0bf9d9e5fc0c8af2962b4175e8e027 META.yml
+SHA1 16b0476d50cae000485ff98fbf7882f34a386b4d Makefile.PL
+SHA1 e2668cc5b89654392f2fb381d273b84f89cf7c91 lib/Class/Workflow.pm
 SHA1 69923e5c4456a4b189d98c77f704f457294ffb24 lib/Class/Workflow.pmc
 SHA1 27904d4240a65b61325007be876ea576538151b7 lib/Class/Workflow/Context.pm
 SHA1 f54f14804acf944a3c81dcf0a59c6e0b9a6be42a lib/Class/Workflow/Environment.pm
@@ -26,12 +26,12 @@ SHA1 fae1fe6b2b1ab2058ed771f9c4b4ac85edca24c5 lib/Class/Workflow/Instance/Simple
 SHA1 58defb4a84ed7e557cb3b86ee578b41f64772f61 lib/Class/Workflow/State.pm
 SHA1 b0a18c195ed0d22b41f7bd72b242c1303695dc85 lib/Class/Workflow/State/AcceptHooks.pm
 SHA1 982233439842c4c9bac2ffec619fa125677a9cd0 lib/Class/Workflow/State/AutoApply.pm
-SHA1 2ea2aa11ac1212c574f8566d77c403ef8796acb8 lib/Class/Workflow/State/Simple.pm
+SHA1 8b42ddf692240f4f983f86033e7418c55e8015c5 lib/Class/Workflow/State/Simple.pm
 SHA1 30487df33db6c10fc6b8e9c17d6731cab1a09c03 lib/Class/Workflow/State/TransitionHash.pm
 SHA1 9db58b80e7582fae0cce3ac33f7f003cc20d1c9d lib/Class/Workflow/State/TransitionSet.pm
 SHA1 c057711f4d601dc8c77c28a65d96cc7bea9a044d lib/Class/Workflow/Transition.pm
 SHA1 dff592113c196347be942a585b4b79f5c8dc2d42 lib/Class/Workflow/Transition/Deterministic.pm
-SHA1 964f9bdf0dc28f2463777d775a31e51c56b8bb6b lib/Class/Workflow/Transition/Simple.pm
+SHA1 9d88270093fbc743fd5c9485d64f7546ed7f958c lib/Class/Workflow/Transition/Simple.pm
 SHA1 1cffef6d32ad72938a49090670d1971356a867db lib/Class/Workflow/Transition/Strict.pm
 SHA1 aca0b99b28ab2f6b39f89b2935a6e994535892da lib/Class/Workflow/Transition/Validate.pm
 SHA1 d5cf504aa46a35fa60ee125adca799888c600ada lib/Class/Workflow/Transition/Validate/Simple.pm
@@ -46,9 +46,9 @@ SHA1 8a802a095c0a627817659929f6a5144a1747b103 t/example.yaml
 SHA1 64fe1f48aded8384dd95e20147d3bfc02f0a4067 t/example_pop3.t
 SHA1 bbc827e5f29aad5342ad6e29aa6e55975ec48394 t/yaml.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.5 (Darwin)
+Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFFxu7CVCwRwOvSdBgRAloMAKC4bfql7l7qjAzDN5z/U3v7PEHJfgCfVpws
-sHSC71bHankJt/VWxG0dMVM=
-=c0Go
+iD8DBQFG8p0vVCwRwOvSdBgRAn9WAJ4mB/yygPCssI4x7vLSo5bXmna5xgCffDLr
+fV3RZsTeZOPG+Ef6i/C+BXI=
+=DlSt
 -----END PGP SIGNATURE-----
