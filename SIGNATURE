@@ -15,10 +15,10 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 7ed33c76a9fc6adf95a6d838bd6de2b5bdabafd6 MANIFEST
-SHA1 5c3030d7bb0bf9d9e5fc0c8af2962b4175e8e027 META.yml
+SHA1 2e639b5d5b9415899d545fcab60bf117ba36d3cd META.yml
 SHA1 16b0476d50cae000485ff98fbf7882f34a386b4d Makefile.PL
-SHA1 e2668cc5b89654392f2fb381d273b84f89cf7c91 lib/Class/Workflow.pm
-SHA1 69923e5c4456a4b189d98c77f704f457294ffb24 lib/Class/Workflow.pmc
+SHA1 3cab2e429fb89f2e662bd03dfb684b11f7876d6b lib/Class/Workflow.pm
+SHA1 313e6da0d9a6289411ad55381841aaa885bd398a lib/Class/Workflow.pmc
 SHA1 27904d4240a65b61325007be876ea576538151b7 lib/Class/Workflow/Context.pm
 SHA1 f54f14804acf944a3c81dcf0a59c6e0b9a6be42a lib/Class/Workflow/Environment.pm
 SHA1 c533e7e34fc8f975cfede60e5e2b26a6c5e38411 lib/Class/Workflow/Instance.pm
@@ -48,7 +48,7 @@ SHA1 bbc827e5f29aad5342ad6e29aa6e55975ec48394 t/yaml.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFG8p0vVCwRwOvSdBgRAn9WAJ4mB/yygPCssI4x7vLSo5bXmna5xgCffDLr
-fV3RZsTeZOPG+Ef6i/C+BXI=
-=DlSt
+iD8DBQFG+ZLCVCwRwOvSdBgRAvLcAJ95JDEOH2Wo1l5Rmhpf7ZdG716RsQCffhze
+jUIaJrOlxYPDzPaM54jDJTw=
+=YoM8
 -----END PGP SIGNATURE-----
