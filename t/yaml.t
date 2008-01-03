@@ -6,7 +6,7 @@ use warnings;
 use Test::More;
 
 BEGIN {
-	plan skip_all => "This test requires YAML to be installed" unless eval { require YAML::Syck };
+	plan skip_all => "This test requires YAML::Syck to be installed" unless eval { require YAML::Syck };
 	plan tests => 10;
 }
 
@@ -20,7 +20,7 @@ isa_ok( $y, "Class::Workflow::YAML" );
 
 can_ok( $y, "load_file" );
 
-my $workflow = $y->load_file( File::Spec->catfile(qw/t example.yaml/) );
+my $workflow = $y->load_file( File::Spec->catfile(qw/examples example.yaml/) );
 
 isa_ok( $workflow, "Class::Workflow" );
 

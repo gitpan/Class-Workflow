@@ -14,14 +14,24 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7ed33c76a9fc6adf95a6d838bd6de2b5bdabafd6 MANIFEST
-SHA1 2e639b5d5b9415899d545fcab60bf117ba36d3cd META.yml
+SHA1 a38c2a45dc7c0e4a31b7056b08f9ea7e061106d9 Changes
+SHA1 f6a0eaf3a8748cbb0d1ed24d299bd9d9974f6e1a MANIFEST
+SHA1 ec3716126bcb1bedb891a72b90701c4d3a9784c1 META.yml
 SHA1 16b0476d50cae000485ff98fbf7882f34a386b4d Makefile.PL
-SHA1 3cab2e429fb89f2e662bd03dfb684b11f7876d6b lib/Class/Workflow.pm
-SHA1 313e6da0d9a6289411ad55381841aaa885bd398a lib/Class/Workflow.pmc
+SHA1 fd055ffcd23f50451a4f34bdb4144f674c3039cd examples/dbic/README
+SHA1 246bf2606a765982a57306604eb47c4517d2b537 examples/dbic/lib/Foo/DB.pm
+SHA1 31b9f46c61154b1f5644bb7ad13cfc40e60c709f examples/dbic/lib/Foo/DB/Item.pm
+SHA1 7e721764c8a1ca575fef706f795e399eab85a18e examples/dbic/lib/Foo/DB/Workflow/Instance.pm
+SHA1 950af01dbdebe21a1df5fe5220cbd40480f2c728 examples/dbic/lib/Foo/DB/Workflow/State.pm
+SHA1 12aeebb37520191e084379cd6068de22b315a360 examples/dbic/lib/Foo/DB/Workflow/Transition.pm
+SHA1 188113356268ad81b6473f177c18803c573a00e8 examples/dbic/t/example_dbic.t
+SHA1 8a802a095c0a627817659929f6a5144a1747b103 examples/example.yaml
+SHA1 64fe1f48aded8384dd95e20147d3bfc02f0a4067 examples/example_pop3.t
+SHA1 00b7659e805ce1d193ab6ec32d9ad4de34e816ef lib/Class/Workflow.pm
+SHA1 edb325586d70329cb416404c7db7c916729978f8 lib/Class/Workflow.pmc
 SHA1 27904d4240a65b61325007be876ea576538151b7 lib/Class/Workflow/Context.pm
 SHA1 f54f14804acf944a3c81dcf0a59c6e0b9a6be42a lib/Class/Workflow/Environment.pm
-SHA1 c533e7e34fc8f975cfede60e5e2b26a6c5e38411 lib/Class/Workflow/Instance.pm
+SHA1 b9ab54a09a02f5502e2c8c55183e81348bbbb919 lib/Class/Workflow/Instance.pm
 SHA1 fae1fe6b2b1ab2058ed771f9c4b4ac85edca24c5 lib/Class/Workflow/Instance/Simple.pm
 SHA1 58defb4a84ed7e557cb3b86ee578b41f64772f61 lib/Class/Workflow/State.pm
 SHA1 b0a18c195ed0d22b41f7bd72b242c1303695dc85 lib/Class/Workflow/State/AcceptHooks.pm
@@ -39,16 +49,15 @@ SHA1 2c41ec6a11f5b1cade5ec895f378c2507afe1515 lib/Class/Workflow/Util/Delta.pm
 SHA1 14fd0bf1fb0681a01098e0ddcf57c8c6c1ba73bb lib/Class/Workflow/YAML.pm
 SHA1 f9fa5393c6134c06caa9c5f820272a257e19b617 lib/Class/Workflow/YAML.pmc
 SHA1 0b42fb5c215c496b702351f923546a4e2e1f1d76 t/01_use.t
-SHA1 ed12feaeaf6c9740b16483189f9b6430722bd3f6 t/basic.t
+SHA1 676530e44134c343789d4ea7dfb27a2f1e161999 t/basic.t
 SHA1 e25e8fa3ab958978ff3f269a52035e4651bd51bd t/delta.t
-SHA1 24c09d17b511cad818dfa978ef2cae7764413a7f t/example.pl
-SHA1 8a802a095c0a627817659929f6a5144a1747b103 t/example.yaml
-SHA1 64fe1f48aded8384dd95e20147d3bfc02f0a4067 t/example_pop3.t
-SHA1 bbc827e5f29aad5342ad6e29aa6e55975ec48394 t/yaml.t
+SHA1 8a8dd116c793bfbebdd87f088d587e6196fd57b4 t/example_dbic.t
+SHA1 37c02947fd00d462346f3557b98ebd9542c65297 t/example_pop3.t
+SHA1 4a97f1fc74a86f5fb9cdcce2537dc1cbd513964f t/yaml.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFG+ZLCVCwRwOvSdBgRAvLcAJ95JDEOH2Wo1l5Rmhpf7ZdG716RsQCffhze
-jUIaJrOlxYPDzPaM54jDJTw=
-=YoM8
+iD8DBQFHfS+vVCwRwOvSdBgRAgEeAJ9o3ucvMa+Ew2Z5KFrcOIlWlxvldQCghy/F
+bltTg+UmXgcS7/MDdmMRHYk=
+=3DhU
 -----END PGP SIGNATURE-----

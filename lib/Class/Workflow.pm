@@ -7,7 +7,7 @@ use Class::Workflow::State::Simple;
 use Class::Workflow::Transition::Simple;
 use Class::Workflow::Instance::Simple;
 
-our $VERSION = "0.07";
+our $VERSION = "0.08";
 
 use Carp qw/croak/;
 use Scalar::Util qw/refaddr/;
@@ -134,8 +134,9 @@ sub create_[% field %] {
 }
 
 sub construct_[% field %] {
-	my ( $self, @attrs ) = @_;
-	$self->[% field %]_class->new( @attrs );
+	my ( $self, %attrs ) = @_;
+	my $class = delete($attrs{class}) || $self->[% field %]_class;
+	$class->new( %attrs );
 }
 
 sub autovivify_[% field %]s {
@@ -293,7 +294,16 @@ Class::Workflow - Light weight workflow system.
 Workflow systems let you build a state machine, with transitions between
 states.
 
-=head1 BUG TRACKER EXAMPLE
+=head1 EXAMPLES
+
+There are several examples in the F<examples> directory, worth looking over to
+help you understand and to learn some more advanced things.
+
+The most important example is probably how to store a workflow definition (the
+states and transitions) as well as the instances using L<DBIx::Class> in a
+database.
+
+=head2 Bug Tracker Example
 
 One of the simplest examples of a workflow which you've probably used is a bug
 tracking application:
@@ -381,7 +391,7 @@ Target state: C<open>
 =item closed
 
 This is, like rejected, an end state (it has no transitions).
-gg
+
 =back
 
 If you read through this very simple state machine you can see that it

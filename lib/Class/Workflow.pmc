@@ -3,7 +3,7 @@
 #line 1
 BEGIN { use 5.006; local (*F, $/); ($F = __FILE__) =~ s!c$!!; open(F)
 or die "Cannot open $F: $!"; binmode(F, ':crlf'); if (unpack('%32N*',
-$F=readline(*F)) != 0x2EBFDF39) { use Filter::Util::Call; my $f = $F;
+$F=readline(*F)) != 0xA6C75374) { use Filter::Util::Call; my $f = $F;
 filter_add(sub { filter_del(); 1 while &filter_read; $_ = $f; 1; })}}
 #line 1
 # 8667e12ea286715fb3e93c82b3356305890112f1
@@ -15,7 +15,7 @@ use Class::Workflow::State::Simple;
 use Class::Workflow::Transition::Simple;
 use Class::Workflow::Instance::Simple;
 
-our $VERSION = "0.07";
+our $VERSION = "0.08";
 
 use Carp qw/croak/;
 use Scalar::Util qw/refaddr/;
@@ -141,8 +141,9 @@ sub create_state {
 }
 
 sub construct_state {
-	my ( $self, @attrs ) = @_;
-	$self->state_class->new( @attrs );
+	my ( $self, %attrs ) = @_;
+	my $class = delete($attrs{class}) || $self->state_class;
+	$class->new( %attrs );
 }
 
 sub autovivify_states {
@@ -271,8 +272,9 @@ sub create_transition {
 }
 
 sub construct_transition {
-	my ( $self, @attrs ) = @_;
-	$self->transition_class->new( @attrs );
+	my ( $self, %attrs ) = @_;
+	my $class = delete($attrs{class}) || $self->transition_class;
+	$class->new( %attrs );
 }
 
 sub autovivify_transitions {
@@ -429,7 +431,16 @@ Class::Workflow - Light weight workflow system.
 Workflow systems let you build a state machine, with transitions between
 states.
 
-=head1 BUG TRACKER EXAMPLE
+=head1 EXAMPLES
+
+There are several examples in the F<examples> directory, worth looking over to
+help you understand and to learn some more advanced things.
+
+The most important example is probably how to store a workflow definition (the
+states and transitions) as well as the instances using L<DBIx::Class> in a
+database.
+
+=head2 Bug Tracker Example
 
 One of the simplest examples of a workflow which you've probably used is a bug
 tracking application:
@@ -517,7 +528,7 @@ Target state: C<open>
 =item closed
 
 This is, like rejected, an end state (it has no transitions).
-gg
+
 =back
 
 If you read through this very simple state machine you can see that it

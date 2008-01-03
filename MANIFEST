@@ -1,3 +1,13 @@
+Changes
+examples/dbic/lib/Foo/DB.pm
+examples/dbic/lib/Foo/DB/Item.pm
+examples/dbic/lib/Foo/DB/Workflow/Instance.pm
+examples/dbic/lib/Foo/DB/Workflow/State.pm
+examples/dbic/lib/Foo/DB/Workflow/Transition.pm
+examples/dbic/README
+examples/dbic/t/example_dbic.t
+examples/example.yaml
+examples/example_pop3.t
 lib/Class/Workflow.pm
 lib/Class/Workflow.pmc
 lib/Class/Workflow/Context.pm
@@ -24,8 +34,7 @@ MANIFEST			This list of files
 t/01_use.t
 t/basic.t
 t/delta.t
-t/example.pl
-t/example.yaml
+t/example_dbic.t
 t/example_pop3.t
 t/yaml.t
 META.yml                                 Module meta-data (added by MakeMaker)

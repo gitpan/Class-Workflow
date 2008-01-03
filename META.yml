@@ -1,9 +1,10 @@
 --- #YAML:1.0
 name:                Class-Workflow
-version:             0.07
+version:             0.08
 abstract:            ~
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.32
+author:              ~
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Data::Compare:                 0
@@ -13,5 +14,5 @@ requires:
     Test::use::ok:                 0
     YAML::Syck:                    0.82
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
