@@ -115,6 +115,7 @@ use ok "Class::Workflow::Context";
 		isa => "POP3::Workflow::Instance",
 		is  => "rw",
 		default => sub { $Workflow->new_instance() },
+		clearer => "clear_workflow_instance",
 	);
 
 	has connection => (
@@ -130,7 +131,7 @@ use ok "Class::Workflow::Context";
 
 		if ( $i->state->name eq "disconnecting" ) {
 			$self->connection->close;
-			$self->workflow_instance( undef );
+			$self->clear_workflow_instance;
 			return;
 		}
 
@@ -163,7 +164,7 @@ use ok "Class::Workflow::Context";
 				$connection->$status( $response );
 			};
 
-			$connection->err( "Internal error" ) if $@;
+			$connection->err( "Internal error: $@" ) if $@;
 		} else {
 			$connection->err( "Invalid command" );
 		}
@@ -345,7 +346,7 @@ $w->transition(
 my $serv = POP3::Server->new(
 	users => {
 		foo => "secret",
-	},	
+	},
 );
 
 

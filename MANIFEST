@@ -11,7 +11,7 @@ examples/example_pop3.t
 lib/Class/Workflow.pm
 lib/Class/Workflow.pmc
 lib/Class/Workflow/Context.pm
-lib/Class/Workflow/Environment.pm
+lib/Class/Workflow/Cookbook.pod
 lib/Class/Workflow/Instance.pm
 lib/Class/Workflow/Instance/Simple.pm
 lib/Class/Workflow/State.pm
