@@ -1,22 +1,22 @@
+use strict;
+use warnings FATAL => 'all';
+use 5.008001;
 use ExtUtils::MakeMaker;
 
-
-WriteMakefile
-(
+WriteMakefile(
 	NAME         => 'Class::Workflow',
 	VERSION_FROM => 'lib/Class/Workflow.pm',
 	PREREQ_PM    => {
-		'Moose'         => '0.37',
+		'Moose'         => '0.93',
 		'Set::Object'   => '1.19',
-		'Test::More'    => 0,
-		'Test::use::ok' => 0,
 		'Data::Compare' => 0,
 		'MooseX::Clone' => 0,
-		eval { require YAML::Syck } ? do { 'YAML::Syck' => '0.82' } : (),
+		'YAML'          => 0,
 	},
+        BUILD_REQUIRES => {
+		'Test::More'    => 0,
+        },
 	INSTALLDIRS  => 'site',
 	EXE_FILES    => [],
 	PL_FILES     => {},
-	SIGN         => 1,
-)
-;
+);
